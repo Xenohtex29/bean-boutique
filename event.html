@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Coffee tasting sessions, classes and meet-the-roaster events at Bean Boutique.">
+  <title>Events and workshops | Bean Boutique</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body><a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header"><a class="brand" href="index.html"><span aria-hidden="true">●</span> Bean
+      Boutique</a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="coffee.html">Coffee</a></li>
+        <li><a href="equipment.html">Equipment</a></li>
+        <li><a class="active" aria-current="page" href="event.html">Events</a></li>
+        <li><a href="offer.html">Subscriptions</a></li>
+        <li><a href="ShoppingCart.html">Cart <span class="cart-count">0</span></a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="main-content">
+    <section class="page-heading">
+      <p class="eyebrow">Events &amp; workshops</p>
+      <h1>Coffee tastes better together.</h1>
+      <p>Pull up a chair for an easy-going tasting, a practical class, or an evening with the people behind the beans.
+      </p>
+    </section>
+    <section class="events-layout section-wrap">
+      <div class="event-list">
+        <h2>Upcoming events</h2>
+        <article class="event-card">
+          <p class="event-date"><span>12</span> OCT</p>
+          <div>
+            <p class="eyebrow">Saturday · 10:00</p>
+            <h2>Autumn tasting table</h2>
+            <p>Compare three seasonal coffees and discover the notes you enjoy most. Includes coffee and pastry.</p>
+            <p><strong>£15 · 12 places</strong></p>
+          </div>
+        </article>
+        <article class="event-card">
+          <p class="event-date"><span>19</span> OCT</p>
+          <div>
+            <p class="eyebrow">Saturday · 14:00</p>
+            <h2>Better coffee at home</h2>
+            <p>A beginner-friendly, hands-on introduction to grinding, water, ratios and pour-over brewing.</p>
+            <p><strong>£28 · 8 places</strong></p>
+          </div>
+        </article>
+        <article class="event-card">
+          <p class="event-date"><span>02</span> NOV</p>
+          <div>
+            <p class="eyebrow">Saturday · 18:30</p>
+            <h2>Meet the roaster</h2>
+            <p>Hear the story behind our newest coffee, taste it in several recipes and ask every question.</p>
+            <p><strong>£12 · 20 places</strong></p>
+          </div>
+        </article>
+      </div>
+      <aside class="registration" aria-labelledby="registration-title">
+        <p class="eyebrow">Reserve your place</p>
+        <h2 id="registration-title">Sign up for an event</h2>
+        <p>We will email you to confirm your selected session.</p>
+        <form id="event-form" action="mailto:hello@beanboutique.example?subject=Event%20registration" method="post"
+          enctype="text/plain"><label for="first-name">First name</label><input id="first-name" name="first-name"
+            autocomplete="given-name" required><label for="last-name">Last name</label><input id="last-name"
+            name="last-name" autocomplete="family-name" required><label for="event-email">Email address</label><input
+            id="event-email" name="email" type="email" autocomplete="email" required><label for="event-choice">Choose an
+            event</label><select id="event-choice" name="event">
+            <option>Autumn tasting table</option>
+            <option>Better coffee at home</option>
+            <option>Meet the roaster</option>
+          </select><button class="button" type="submit">Register by email</button></form>
+        <p id="event-registration-message" class="form-message" role="status" aria-live="polite" hidden></p>
+        <p class="secure-note">🔒 Your address is used only to reply to this registration.</p>
+      </aside>
+    </section>
+    <section class="map-section section-wrap">
+      <div>
+        <p class="eyebrow">Find us</p>
+        <h2>Right by the market.</h2>
+        <p>18 Market Lane, a five-minute walk from the station. The interactive map below is an OpenStreetMap widget.
+        </p>
+      </div><iframe title="Map showing a central London location"
+        src="https://www.openstreetmap.org/export/embed.html?bbox=-0.135%2C51.505%2C-0.115%2C51.515&amp;layer=mapnik"
+        loading="lazy"></iframe>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div><a class="brand" href="index.html"><span aria-hidden="true">●</span> Bean Boutique</a>
+      <p>Independent coffee for unhurried days.</p>
+    </div>
+    <div>
+      <h2>Visit</h2>
+      <p>18 Market Lane<br>Open daily, 8am–5pm</p>
+    </div>
+    <p class="footer-bottom">© 2026 Bean Boutique Coffee Shop</p>
+  </footer>
+</body>
+
+</html>
